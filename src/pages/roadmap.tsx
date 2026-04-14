@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { auth, db } from '../lib/firebase'
-import { doc, getDoc, updateDoc } from 'firebase/firestore'
+import { doc, getDoc } from 'firebase/firestore'
 import { useNavigate, useParams } from 'react-router-dom'
 import { callAI } from '../lib/ai'
 

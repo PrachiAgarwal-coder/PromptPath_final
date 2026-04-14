@@ -19,7 +19,7 @@ export default function Quiz() {
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
   const [loading, setLoading] = useState(true)
-  const [topic, setTopic] = useState('')
+  const [_topic, setTopic] = useState('')
   const [milestone, setMilestone] = useState('')
   const [milestoneTitle, setMilestoneTitle] = useState('')
   const navigate = useNavigate()
